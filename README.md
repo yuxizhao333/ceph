@@ -1,3 +1,23 @@
+<h1 align="center">
+  <a href="https://ceph.com/">
+    <img src="https://imagetest.s3.fr-par.scw.cloud/Ceph_Logo_Standard_RGB_120411_fa-1900x872_c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=SCWCC86TC90543NJR0T8%2F20231109%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20231109T143511Z&X-Amz-Expires=3598&X-Amz-Signature=c65351928f154054a75cc48bd787969650c6f7ab6a9cbc3dfa364112bd9f7823&X-Amz-SignedHeaders=host&x-id=GetObject" alt="Logo" width="475" height="218">
+  </a>
+</h1>
+
+<div align="center">
+ A scalable distributed storage system
+  <br />
+  <br />
+  <a href="https://ceph.com/"><b>Website</b> </a>
+  &nbsp;.&nbsp;
+  <a href="https://docs.ceph.com/en/latest/"><b>Documentations</b>  </a>
+  &nbsp;.&nbsp;
+  <a href="https://tracker.ceph.com/projects/ceph"><b>Report an issue</b> </a>
+  &nbsp;.&nbsp;
+  <a href="https://tracker.ceph.com/projects/ceph/wiki/FAQs"><b>FAQ</b></a>
+</div>
+
+
 # Ceph - a scalable distributed storage system
 
 See https://ceph.com/ for current information about Ceph.
