@@ -1,13 +1,22 @@
 <h1 align="center">
   <a href="https://ceph.com/">
-    <img src="https://imagetest.s3.fr-par.scw.cloud/Ceph_Logo_Standard_RGB_120411_fa-1900x872_c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=SCWCC86TC90543NJR0T8%2F20231109%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20231109T143511Z&X-Amz-Expires=3598&X-Amz-Signature=c65351928f154054a75cc48bd787969650c6f7ab6a9cbc3dfa364112bd9f7823&X-Amz-SignedHeaders=host&x-id=GetObject" alt="Logo" width="475" height="218">
+    <img src="https://imagetest.s3.fr-par.scw.cloud/Ceph_Logo_Standard_RGB_120411_fa-1900x872_c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=SCWCC86TC90543NJR0T8%2F20231109%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20231109T143511Z&X-Amz-Expires=3598&X-Amz-Signature=c65351928f154054a75cc48bd787969650c6f7ab6a9cbc3dfa364112bd9f7823&X-Amz-SignedHeaders=host&x-id=GetObject" alt="Logo" width="300" height="150">
   </a>
 </h1>
 
 <div align="center">
- A scalable distributed storage system
-  <br />
-  <br />
+	
+[![Build Status](https://github.com/ceph/ceph/actions/workflows/pr-check-deps.yml/badge.svg)](https://github.com/ceph/ceph/actions/workflows/pr-check-deps.yml)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub contributors](https://img.shields.io/github/contributors/ceph/ceph.svg)](https://github.com/ceph/ceph/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/ceph/ceph.svg)](https://github.com/ceph/ceph/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ceph/ceph.svg)](https://github.com/ceph/ceph/pulls)
+[![GitHub repo size](https://img.shields.io/github/repo-size/ceph/ceph.svg)](https://github.com/ceph/ceph)
+[![Last Commit](https://img.shields.io/github/last-commit/ceph/ceph.svg)](https://github.com/ceph/ceph/commits/master)
+
+</div>
+
+<div align="center">
   <a href="https://ceph.com/"><b>Website</b> </a>
   &nbsp;.&nbsp;
   <a href="https://docs.ceph.com/en/latest/"><b>Documentations</b>  </a>
@@ -17,10 +26,30 @@
   <a href="https://tracker.ceph.com/projects/ceph/wiki/FAQs"><b>FAQ</b></a>
 </div>
 
+<details open="open">
+<summary>Table of Contents</summary>
 
-# Ceph - a scalable distributed storage system
+- [About](#about)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+    - [Cookiecutter template](#cookiecutter-template)
+    - [Manual setup](#manual-setup)
+    - [Variables reference](#variables-reference)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-See https://ceph.com/ for current information about Ceph.
+</details>
+
+
+## About
+
+ Ceph - a scalable distributed storage system
+ See https://ceph.com/ for current information about Ceph.
 
 
 ## Contributing Code
