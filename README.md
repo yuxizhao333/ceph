@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <a href="https://ceph.com/">
-    <img src="https://imagetest.s3.fr-par.scw.cloud/Ceph_Logo_Standard_RGB_120411_fa-1900x872_c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=SCWCC86TC90543NJR0T8%2F20231109%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20231109T143511Z&X-Amz-Expires=3598&X-Amz-Signature=c65351928f154054a75cc48bd787969650c6f7ab6a9cbc3dfa364112bd9f7823&X-Amz-SignedHeaders=host&x-id=GetObject" alt="Logo" width="300" height="150">
+    <img src="https://imagetest.s3.fr-par.scw.cloud/Ceph_Logo_Standard_RGB_120411_fa-1900x872_c.png" alt="Logo" width="300" height="150">
   </a>
 </h1>
 
@@ -95,6 +95,7 @@ out the git submodules associated with it:
 
     cd ceph
 	git submodule update --init --recursive --progress
+ <div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
  
 ### Step 2 - Prerequisites
 Make sure that ``curl`` is installed. The Debian and Ubuntu ``apt`` command is 
@@ -110,6 +111,8 @@ Install Debian or RPM package dependencies by running the following command:
 Install the ``python3-routes`` package:
 
     apt install python3-routes
+
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
     
 ### Step 3 - Building Ceph
 
@@ -156,6 +159,9 @@ To build only certain targets, run a command of the following form:
 To install:
 
 	ninja install
+ 
+ <div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+
  ### CMake Options
 
 The `-D` flag can be used with `cmake` to speed up the process of building Ceph
@@ -205,6 +211,9 @@ The diagnostic colors will be visible when the following command is run:
 
 Other available values for `DIAGNOSTICS_COLOR` are `auto` (default) and
 `never`.
+
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+
  ### Step 4 - Building a source tarball
 
 To build a complete source tarball with everything needed to build from
@@ -216,6 +225,7 @@ This will create a tarball like ceph-$version.tar.bz2 from git.
 (Ensure that any changes you want to include in your working directory
 are committed to git.)
 
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
 
 ### Step 5 - Running a test cluster
 
@@ -241,6 +251,9 @@ Use the sysvinit script to start or stop individual daemons:
 
 	./bin/init-ceph restart osd.0
 	./bin/init-ceph stop
+
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+
 ### Step 6 - Running unit tests
 
 To build and run all tests (in parallel using all processors), use `ctest`:
@@ -283,7 +296,8 @@ There are many other flags you can give `ctest` for better control
 over manual test execution. To view these options run:
 
 	man ctest
- 
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+
  ## Contributing to Documentation
 
 The list of package dependencies for building the documentation can be
@@ -297,7 +311,7 @@ To build the documentation, ensure that you are in the top-level
 
 	admin/build-doc
 
-
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
 
 ## Licenses
 Most of Ceph is dual-licensed under the **LGPL version 2.1 or 3.0.** Some
@@ -313,6 +327,7 @@ See the file `COPYING` for a full inventory of licenses by file.
 All code contributions must include a valid "Signed-off-by" line. See the file
 `SubmittingPatches.rst` for details on this and instructions on how to generate
 and submit patches.
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
 
 Assignment of copyright is not required to contribute code. Code is
 contributed under the terms of the applicable license.
