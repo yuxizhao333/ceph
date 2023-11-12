@@ -327,9 +327,9 @@ See the file `COPYING` for a full inventory of licenses by file.
 All code contributions must include a valid "Signed-off-by" line. See the file
 `SubmittingPatches.rst` for details on this and instructions on how to generate
 and submit patches.
-<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
 
 Assignment of copyright is not required to contribute code. Code is
 contributed under the terms of the applicable license.
 
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
 
